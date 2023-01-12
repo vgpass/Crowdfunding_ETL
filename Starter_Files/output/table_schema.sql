@@ -17,6 +17,7 @@ create table subcategory(
 	subcategory VARCHAR(30)
 );
 
+
 create table campaign (
 	cf_id INT PRIMARY KEY NOT NULL,
 	contact_id INT,
@@ -36,6 +37,7 @@ create table campaign (
 	FOREIGN KEY(category_id)  REFERENCES category(category_id),
 	FOREIGN KEY(subcategory_id)  REFERENCES subcategory(subcategory_id)
 );
+
 
 
 
