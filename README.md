@@ -70,6 +70,12 @@ subcategory.csv contains 10 rows that has subcategory_id named from “subcat1�
 We used both option 1 and option 2 to create the contact dataframe, the dataframe contains column name “contact_id”, “first_name”, “last_name”, “email”.
 campaign.csv was first cleaned from crowdfunding.xlsx and the dataframe contains column name “cf_id”, “contact_id”, “company_name”, “description”, “goal”, “pledged”, “outcome”,“backers_count”, “country”, “currency”, “launched_date”, “end_date”, “category_id”, “subcategory_id”.
 
-
 # **Comments and Thoughts**
+
+Jonathan : Building an ETL pipeline is key to facilitate data analysis, without this pipeline, we wouldn't be able to clean up the data and load it into a database for effective analysis. The most interesting part of this project was the fact that we can use either Python dictionary methods or regular expressions to extract and transform the data.
+
+Patricia : I think the most interesting part of this project for me is seeing the additional ways that data can be sort of dismantled and then restructured in a better way.
+I noticed that through this process, it became easier to relate certain parts of the data to others. The extraction and transformation process was interesting because although it was challenging, the result made it worth the work, which was a well-integrated dataset and table that is functional, clean, and easy to understand.
+
+Vincent : I was fortunate to have a great group to work with. Collaboration was outstanding. Everyone contributed and it was apparent that we all had different strengths. Communication was key, and we made good use of Slack to keep each other apprised of our progress. Even with different schedules, we all managed to complete the various sections. I was really impressed with the amount of collaborattion and cooperation.
 
