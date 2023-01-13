@@ -73,3 +73,7 @@ campaign.csv was first cleaned from crowdfunding.xlsx and the dataframe contains
 
 # **Comments and Thoughts**
 
+"I think the most interesting part of this project for me is seeing the additional ways that data can be sort of dismantled and then restructured in a better way.
+I noticed that through this process, it became easier to relate certain parts of the data to others. 
+The extraction and transformation process was interesting because although it was challenging, the result made it worth the work,
+which was a well-integrated dataset and table that is functional, clean, and easy to understand." --Patricia
