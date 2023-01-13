@@ -57,7 +57,7 @@ Afterward, we created four CSV files and use the CSV file data to create an ERD 
 
 ![ERD Schema](Starter_Files/ETL_ERD_Group_4.png)
 
-Finally, we upload the CSV file data into a Postgres database and successfully imported all data from dataframes.
+Finally, we uploaded the CSV file data into a Postgres database and successfully imported all data from dataframes.
 
 *category.csv* contains 9 rows that has category_id named from “cat1” to “cat9".
 
