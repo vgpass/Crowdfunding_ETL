@@ -50,18 +50,22 @@ The challenge was to use the extract, transform, and load process to refine, res
     * postgres_select_contacts.png
     * postgres_select_subcategory.png
 
-
-
 # **Results**
 
 For the ETL mini project, we demonstrated an ETL pipeline using Python, Pandas, and both Python dictionary methods and regular expressions methods to extract and transform the data.
 Afterward, we created four CSV files and use the CSV file data to create an ERD and a table schema.
 
+![schema](Starter_Files/ETL_ERD_Group_4.png)
+
 Finally, we upload the CSV file data into a Postgres database and successfully imported all data from dataframes.
 
 category.csv contains 9 rows that has category_id named from “cat1” to “cat9".
 
+![categories](Starter_Files/output/category.png)
+
 subcategory.csv contains 10 rows that has subcategory_id named from “subcat1” to “subcat10".
+
+![Subcategories](Starter_Files/output/subcat_results.png)
 
 We used both option 1 and option 2 to create the contact dataframe, the dataframe contains column name “contact_id”, “first_name”, “last_name”, “email”.
 campaign.csv was first cleaned from crowdfunding.xlsx and the dataframe contains column name “cf_id”, “contact_id”, “company_name”, “description”, “goal”, “pledged”, “outcome”,“backers_count”, “country”, “currency”, “launched_date”, “end_date”, “category_id”, “subcategory_id”.
