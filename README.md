@@ -4,7 +4,7 @@
 
 Due Date : Thursday, January 12, 2023
 
-**Group Members**
+# **Group Members**
 
 Chika Okam
 
@@ -21,3 +21,20 @@ Robert Hascall
 Roy Jiang
 
 Vincent Passanisi
+
+
+# **Introduction**
+
+
+
+# **Files**
+
+
+
+
+# **Results**
+
+
+
+# **Comments and Thoughts**
+
