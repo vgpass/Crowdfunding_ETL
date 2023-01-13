@@ -34,6 +34,7 @@ The challenge was to use the extract, transform, and load process to refine, res
 
 * **ETL_Mini_Project_Final_Group4.ipynb** - Completed notebook file for group 4. Contains solutions for both option 1 and 2.
 * **crowdfunding_db_schema.sql** - SQL file with table schema and query to demonstrate all tables created coreectly with primary and foreign keys.
+* **ETL_ERD_Group_4.png** - image file of ERD table schema
 * **Resources** folder contains the provided Excel Files
     * *contacts.xlsx*
     * *crowdfunding.xlsx*
@@ -43,6 +44,11 @@ The challenge was to use the extract, transform, and load process to refine, res
     * contacts_option1.csv
     * contact_option2.csv
     * subcategory.csv
+    * postgres_select_campaign.png
+    * postgres_select_category.png
+    * postgres_select_contacts.png
+    * postgres_select_subcategory.png
+
 
 
 # **Results**
