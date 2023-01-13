@@ -59,16 +59,16 @@ Afterward, we created four CSV files and use the CSV file data to create an ERD 
 
 Finally, we upload the CSV file data into a Postgres database and successfully imported all data from dataframes.
 
-category.csv contains 9 rows that has category_id named from “cat1” to “cat9".
+*category.csv* contains 9 rows that has category_id named from “cat1” to “cat9".
 
 ![categories](Starter_Files/output/category.png)
 
-subcategory.csv contains 10 rows that has subcategory_id named from “subcat1” to “subcat10".
+*subcategory.csv* contains 10 rows that has subcategory_id named from “subcat1” to “subcat10".
 
 ![Subcategories](Starter_Files/output/subcat_results.png)
 
 We used both option 1 and option 2 to create the contact dataframe, the dataframe contains column name “contact_id”, “first_name”, “last_name”, “email”.
-campaign.csv was first cleaned from crowdfunding.xlsx and the dataframe contains column name “cf_id”, “contact_id”, “company_name”, “description”, “goal”, “pledged”, “outcome”,“backers_count”, “country”, “currency”, “launched_date”, “end_date”, “category_id”, “subcategory_id”.
+campaign.csv was first cleaned from *crowdfunding.xlsx* and the dataframe contains column name “cf_id”, “contact_id”, “company_name”, “description”, “goal”, “pledged”, “outcome”,“backers_count”, “country”, “currency”, “launched_date”, “end_date”, “category_id”, “subcategory_id”.
 
 # **Comments and Thoughts**
 
