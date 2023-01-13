@@ -55,7 +55,7 @@ The challenge was to use the extract, transform, and load process to refine, res
 For the ETL mini project, we demonstrated an ETL pipeline using Python, Pandas, and both Python dictionary methods and regular expressions methods to extract and transform the data.
 Afterward, we created four CSV files and use the CSV file data to create an ERD and a table schema.
 
-![schema](Starter_Files/ETL_ERD_Group_4.png)
+![ERD Schema](Starter_Files/ETL_ERD_Group_4.png)
 
 Finally, we upload the CSV file data into a Postgres database and successfully imported all data from dataframes.
 
@@ -76,6 +76,10 @@ Jonathan : Building an ETL pipeline is key to facilitate data analysis, without 
 
 Patricia : I think the most interesting part of this project for me is seeing the additional ways that data can be sort of dismantled and then restructured in a better way.
 I noticed that through this process, it became easier to relate certain parts of the data to others. The extraction and transformation process was interesting because although it was challenging, the result made it worth the work, which was a well-integrated dataset and table that is functional, clean, and easy to understand.
+
+Roy: Data cleaning and reconstruction are crucial and fundamental for further advanced data analysis. Without a streamlined program and cleaned dataframes, it would be challenging to read and understand large amount of datasets. It was challenging at the beginning to learn various data cleaning techniques such as regular expression but great group collaboration allowed us to generate well-functional dataframes and databases. It will be interesting to integrate with matplotlib to put these databases into plot perspectives for trending analysis.
+
+Robert: I found that this project demonstrated the team aspect of working with Github in a more meaningful way than Project 1. It allowed us to practice, in a real team environment, creating a branch and moving between our branches and main. Additionally, the project itself, relating to ETL, was valuable in demonstrating the “process” of gathering (extracting), manipulating (transforming) and loading the data. This being the foundation before any data analysis can even begin. Understanding this process further demonstrated to me the work involved in data analytics when it also includes the analysis of the data post-ETL. The breadth of the field of data analytics is clearer to me after this project.
 
 Vincent : I was fortunate to have a great group to work with. Collaboration was outstanding. Everyone contributed and it was apparent that we all had different strengths. Communication was key, and we made good use of Slack to keep each other apprised of our progress. Even with different schedules, we all managed to complete the various sections. I was really impressed with the amount of collaborattion and cooperation.
 
