@@ -59,23 +59,24 @@ Afterward, we created four CSV files and use the CSV file data to create an ERD 
 
 Finally, we upload the CSV file data into a Postgres database and successfully imported all data from dataframes.
 
-category.csv contains 9 rows that has category_id named from “cat1” to “cat9".
+*category.csv* contains 9 rows that has category_id named from “cat1” to “cat9".
 
 ![categories](Starter_Files/output/category.png)
 
-subcategory.csv contains 10 rows that has subcategory_id named from “subcat1” to “subcat10".
+*subcategory.csv* contains 10 rows that has subcategory_id named from “subcat1” to “subcat10".
 
 ![Subcategories](Starter_Files/output/subcat_results.png)
 
 We used both option 1 and option 2 to create the contact dataframe, the dataframe contains column name “contact_id”, “first_name”, “last_name”, “email”.
-campaign.csv was first cleaned from crowdfunding.xlsx and the dataframe contains column name “cf_id”, “contact_id”, “company_name”, “description”, “goal”, “pledged”, “outcome”,“backers_count”, “country”, “currency”, “launched_date”, “end_date”, “category_id”, “subcategory_id”.
+campaign.csv was first cleaned from *crowdfunding.xlsx* and the dataframe contains column name “cf_id”, “contact_id”, “company_name”, “description”, “goal”, “pledged”, “outcome”,“backers_count”, “country”, “currency”, “launched_date”, “end_date”, “category_id”, “subcategory_id”.
 
 # **Comments and Thoughts**
 
 Jonathan : Building an ETL pipeline is key to facilitate data analysis, without this pipeline, we wouldn't be able to clean up the data and load it into a database for effective analysis. The most interesting part of this project was the fact that we can use either Python dictionary methods or regular expressions to extract and transform the data.
 
-Patricia : I think the most interesting part of this project for me is seeing the additional ways that data can be sort of dismantled and then restructured in a better way.
-I noticed that through this process, it became easier to relate certain parts of the data to others. The extraction and transformation process was interesting because although it was challenging, the result made it worth the work, which was a well-integrated dataset and table that is functional, clean, and easy to understand.
+Patricia : I think the most interesting part of this project for me is seeing the additional ways that data can be sort of dismantled and then restructured in a better way. I noticed that through this process, it became easier to relate certain parts of the data to others. The extraction and transformation process was interesting because although it was challenging, the result made it worth the work, which was a well-integrated dataset and table that is functional, clean, and easy to understand.
+
+Robert: I found that this project demonstrated the team aspect of working with Github in a more meaningful way than Project 1. It allowed us to practice, in a real team environment, creating a branch and moving between our branches and main. Additionally, the project itself, relating to ETL, was valuable in demonstrating the “process” of gathering (extracting), manipulating (transforming) and loading the data. This being the foundation before any data analysis can even begin. Understanding this process further demonstrated to me the work involved in data analytics when it also includes the analysis of the data post-ETL. The breadth of the field of data analytics is clearer to me after this project.
 
 Roy: Data cleaning and reconstruction are crucial and fundamental for further advanced data analysis. Without a streamlined program and cleaned dataframes, it would be challenging to read and understand large amount of datasets. It was challenging at the beginning to learn various data cleaning techniques such as regular expression but great group collaboration allowed us to generate well-functional dataframes and databases. It will be interesting to integrate with matplotlib to put these databases into plot perspectives for trending analysis.
 
